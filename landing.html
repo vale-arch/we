@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="landing-content">
+    <div class="landing-header text-center">
+        <h1>Welcome to My App</h1>
+        <p class="lead">A simple and elegant application for your needs</p>
+        <div class="mt-4">
+            <a href="{{ url_for('routes.home_logged_in_route') }}" class="btn btn-outline-primary btn-lg">Log in</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
